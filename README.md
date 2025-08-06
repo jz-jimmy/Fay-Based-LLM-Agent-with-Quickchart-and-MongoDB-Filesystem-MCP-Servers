@@ -1,2 +1,2 @@
 # Fay-Based-LLM-Agent-with-Quickchart-and-MongoDB-Filesystem-MCP-Servers
-With Fay-Based SDK, I aim to empower digital human like Fay with top-tier reasoning and execution capabilities, which are the core features of an LLM Agent. In this project, I further developed two MCP sse servers, namely Quickchart and MongoDB Filesystem. Together, they support Fay to perform complicated tasks in trustworthy computational space..
+With Fay-Based SDK, I aim to empower digital human like Fay with top-tier reasoning and execution capabilities, which are the core features of an LLM Agent. In this project, I further developed two MCP sse servers, namely Quickchart and MongoDB Filesystem. Together, they support Fay to perform complicated tasks in trustworthy computational space.
