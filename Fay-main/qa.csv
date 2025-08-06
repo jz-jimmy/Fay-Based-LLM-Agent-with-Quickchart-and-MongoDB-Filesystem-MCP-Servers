@@ -1,0 +1,21 @@
+问题,答案,脚本画出一个简易的直方图，返回url,"抱歉，我目前无法直接生成图表的 URL。不过，你可以使用 Python 中的 Matplotlib 库来绘制直方图。以下是一个示例代码：
+
+```python
+import matplotlib.pyplot as plt
+
+# 上海过去五天的气温数据
+temperatures = [29.7, 29.3, 28.7, 29.3, 29.4]
+
+# 绘制直方图
+plt.hist(temperatures, bins=5, edgecolor='black')
+
+# 添加标题和标签
+plt.title('上海过去五天气温直方图')
+plt.xlabel('温度 (°C)')
+plt.ylabel('频率')
+
+# 显示图表
+plt.show()
+```
+
+运行这段代码后，你将看到一个直方图，显示上海过去五天的气温分布。如果你需要进一步的帮助，随时告诉我哦！ 😊"

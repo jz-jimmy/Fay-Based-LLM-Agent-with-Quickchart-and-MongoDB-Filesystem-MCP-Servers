@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "axios": "^1.10.0",
+    "express": "^5.1.0",
+    "pnpm": "^10.12.4",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "tsx": "^4.20.3"
+  },
+  "scripts": {
+    "dev": "tsx sse_MCP_server.ts"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "local-quickchart-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "sse_MCP_quickchart.ts",
+  "scripts": {
+    "dev": "tsx sse_MCP_quickchart.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "axios": "^1.10.0",
+    "canvas": "^2.11.2",
+    "express": "^5.1.0",
+    "quickchart-js": "^3.1.3",
+    "zod": "^3.25.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "tsx": "^4.20.3"
+  }
+}

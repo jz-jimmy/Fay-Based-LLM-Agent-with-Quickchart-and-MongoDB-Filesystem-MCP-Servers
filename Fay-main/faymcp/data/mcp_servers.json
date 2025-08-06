@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "time",
+        "ip": "https://mcp.api-inference.modelscope.cn/sse/896ded03280143",
+        "connection_time": "2025-07-21 16:33:58",
+        "key": ""
+    },
+    {
+        "id": 2,
+        "name": "supergateway",
+        "ip": "http://localhost:8000/sse",
+        "connection_time": "2025-06-30 17:19:58",
+        "key": ""
+    },
+    {
+        "id": 3,
+        "name": "my_mcp_weatherapi",
+        "ip": "http://127.0.0.1:3000/sse",
+        "connection_time": "2025-07-02 10:57:32",
+        "key": ""
+    },
+    {
+        "id": 4,
+        "name": "ant chart",
+        "ip": "http://localhost:1122/sse",
+        "connection_time": "2025-07-02 11:20:17",
+        "key": ""
+    },
+    {
+        "id": 5,
+        "name": "quickchart",
+        "ip": "http://localhost:3001/sse",
+        "connection_time": "2025-07-21 17:25:14",
+        "key": ""
+    },
+    {
+        "id": 6,
+        "name": "MCP_MongoDB_stdio2sse",
+        "ip": "http://localhost:3002/sse",
+        "connection_time": "2025-07-21 17:25:57",
+        "key": ""
+    }
+]

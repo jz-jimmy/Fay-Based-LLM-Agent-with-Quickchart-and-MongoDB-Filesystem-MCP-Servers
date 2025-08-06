@@ -1,0 +1,24 @@
+servers-main\src\time\src\mcp_server_time\__main__.py
+
+npx -y supergateway \
+  --stdio "python ./servers-main/src/time/src/mcp_server_time/__main__.py" \
+  --port 8000 \
+  --ssePath /sse \
+  --messagePath /message
+
+
+
+curl -X POST http://localhost:8000/message \
+     -H "Content-Type: application/json" \
+     -d '{
+           "toolCall": {
+             "name": "get_current_time",
+             "arguments": { "timezone": "Asia/Tokyo" }
+           }
+         }'
+
+
+npx -y supergateway \
+    --stdio "npx -y mongodb-mcp-server --connectionString \"mongodb://localhost:27017/myDatabase\"" \
+    --port 3002 --baseUrl http://localhost:3002 \
+    --ssePath /sse --messagePath /message
